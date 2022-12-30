@@ -10,7 +10,10 @@ body {
 img {
   width: 100%; /* takes the 100 % width of its container (.box div)*/
   height: 100%; /* takes the 100 % height of its container (.box div)*/
-  border-radius: 15px;
+}
+
+.titleImage {
+	border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -25,6 +28,11 @@ a {
 a:hover{
 	text-decoration: none;
 	color: white;
+}
+
+hr {
+	border: 4;
+  border-top: 3px black;
 }
 
 /*a: link {
@@ -64,7 +72,28 @@ a: visited {
 }
 
 .navBarTitle {
-	
+	margin: auto;
+	padding-left: 15px;
+}
+
+.navBarTitle:hover {
+	text-decoration: underline;
+}
+
+.socialIcon {
+	height: 40px;
+	width: 40px;
+	padding-left: 10px;
+}
+
+.doorhingeapps {
+	font-size: 20px;
+	font-family: Helvetica;
+	font-weight: bold;
+}
+
+.doorhingeapps:hover {
+	text-decoration: underline;
 }
 
 .navTitleStack {
@@ -127,6 +156,23 @@ a: visited {
 	margin: auto;
 }
 
+.footer {
+	margin: auto;
+	text-align: center;
+}
 
+.copyright {
+	font-family: Helvetica;
+	color: white;
+}
+
+.gallery {
+	width: 60%;
+	margin: auto;
+}
+
+.hiddendiv {display: none; }
+.testA:focus ~ #testA {display: block; }
+.testB:focus ~ #testB {display: block; }
 
 
