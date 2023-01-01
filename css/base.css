@@ -75,7 +75,24 @@ a: visited {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.contactButtons {
+	text-decoration: underline;
+	color: white;
+	text-align: left;
+	font-family: Helvetica;
+	padding: 20px;
+	margin: auto;
+}
+
 .infoSubtext {
+	color: white;
+	/*text-align: center;*/
+	font-family: Helvetica;
+	padding: 20px;
+	margin: auto;
+}
+
+.infoSubtextLeft {
 	color: white;
 	/*text-align: center;*/
 	font-family: Helvetica;
